@@ -1,0 +1,25 @@
+/* TrailTimeLogo.css */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap'); /* Importing the font */
+
+.trailtime-logo {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for a slight lift effect */
+}
+
+.title {
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 48px; /* Adjusted font size */
+    color: #000;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow for 3D effect */
+}
+
+.subtitle {
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 18px; /* Adjusted font size for subtitle */
+    color: #000;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2); /* Slight shadow for subtitle */
+}

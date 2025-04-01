@@ -1,0 +1,36 @@
+.wishlists-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    min-height: 100vh;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .wishlists-container {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .wishlist-item {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .wishlist-item h2 {
+    margin: 0 0 5px;
+  }
+  
+  .wishlist-item p {
+    margin: 0;
+  }
+  

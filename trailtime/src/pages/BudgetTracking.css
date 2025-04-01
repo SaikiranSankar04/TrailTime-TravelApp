@@ -1,0 +1,54 @@
+.budget-tracking-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .budget-form,
+  .expense-form {
+    margin-bottom: 20px;
+  }
+  
+  .budget-form label,
+  .expense-form label {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .budget-form input,
+  .expense-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .expense-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8B4513; /* Brown */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .expense-list,
+  .budget-summary {
+    margin-top: 20px;
+  }
+  
+  .expense-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .expense-list li {
+    padding: 5px 0;
+  }
+  
+  .budget-summary p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  

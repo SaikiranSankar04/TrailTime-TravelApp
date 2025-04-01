@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3e4a41; /* Olive green */
+    padding: 10px 20px;
+    color: white;
+    position: relative;
+  }
+  
+  .nav-left, .nav-right {
+    display: flex;
+  }
+  
+  .nav-btn {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #6f4f28; /* Brown */
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .nav-btn:hover {
+    background-color: #5a3a1f; /* Darker brown */
+  }
+  
+  .nav-right {
+    margin-left: auto;
+  }

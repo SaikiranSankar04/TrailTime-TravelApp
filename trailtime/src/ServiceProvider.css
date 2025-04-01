@@ -1,0 +1,38 @@
+/* ServiceProviderPortal.css */
+.service-provider-portal {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-provider-portal h1 {
+    margin-bottom: 20px;
+  }
+  
+  .service-provider-portal form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .service-provider-portal input,
+  .service-provider-portal textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .service-provider-portal button {
+    padding: 10px;
+    background-color: #6B4226; /* Brown button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .service-provider-portal button:hover {
+    background-color: #4F2E1A; /* Darker brown on hover */
+  }
+  

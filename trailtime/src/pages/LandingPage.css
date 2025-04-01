@@ -1,0 +1,280 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Optional: Prevents scrolling if not needed */
+  width: 100vw;
+}
+.landing-page {
+  background-image: url('../assets/bg.jpg');
+  background-size: cover;
+  background-position: center;
+    position: relative;
+    min-height: 100vh; /* Full height of the viewport */
+    overflow: hidden;  /* Prevents scrollbars from appearing */
+ }
+
+ 
+  /* Main Content */
+  .main-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space logo and login box apart */
+    height: 100vh;
+    width: 100%;
+    
+    box-sizing: border-box;
+    background-color: transparent;
+    max-width: 300px;
+    margin: 0 ; /* Center main content */
+   
+  }
+  
+  .main-logo {
+    width: 300px;
+    height: 300px;
+    margin: 20px 0;
+    padding-right: 100px;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically in the login box */
+    align-items: flex-start; /* Align items to the left within the login box */
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background-color:#54C392;
+    padding: 15px 30px;
+    /*box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);*/
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .lettering {
+    
+    height: 10px;
+    width: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Optional: for rounded corners */
+  }
+  /* Left section */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Center links section */
+  .navbar-center {
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+    justify-content: center;
+  }
+  
+  .navbar-logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  .navbar-left,
+  .navbar-right {
+    display: flex;
+  }
+  .navbar-btn {
+    padding: 10px 15px;
+    background-color: #8F9779;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .navbar-btn:hover {
+    background-color: #0B192C;
+  }
+  
+  /* Right-aligned Google login */
+  .googlelogin {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  
+  .login-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  .forgot-password-link {
+    font-size: 14px;
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .forgot-password-link:hover {
+    text-decoration: underline;
+  }
+  
+  .login-button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #6B4226; /* Brown button */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #4F2E1A; /* Darker brown on hover */
+  }
+  
+  .register-option {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .register-option a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .register-option a:hover {
+    text-decoration: underline;
+  }
+  .lds-grid,
+  .lds-grid div {
+    box-sizing: border-box;
+  }
+  .lds-grid {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-grid div {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: lds-grid 1.2s linear infinite;
+  }
+  .lds-grid div:nth-child(1) {
+    top: 8px;
+    left: 8px;
+    animation-delay: 0s;
+  }
+  .lds-grid div:nth-child(2) {
+    top: 8px;
+    left: 32px;
+    animation-delay: -0.4s;
+  }
+  .lds-grid div:nth-child(3) {
+    top: 8px;
+    left: 56px;
+    animation-delay: -0.8s;
+  }
+  .lds-grid div:nth-child(4) {
+    top: 32px;
+    left: 8px;
+    animation-delay: -0.4s;
+  }
+  .lds-grid div:nth-child(5) {
+    top: 32px;
+    left: 32px;
+    animation-delay: -0.8s;
+  }
+  .lds-grid div:nth-child(6) {
+    top: 32px;
+    left: 56px;
+    animation-delay: -1.2s;
+  }
+  .lds-grid div:nth-child(7) {
+    top: 56px;
+    left: 8px;
+    animation-delay: -0.8s;
+  }
+  .lds-grid div:nth-child(8) {
+    top: 56px;
+    left: 32px;
+    animation-delay: -1.2s;
+  }
+  .lds-grid div:nth-child(9) {
+    top: 56px;
+    left: 56px;
+    animation-delay: -1.6s;
+  }
+  .google-login {
+    text-align: center;
+    margin: 20px 0; /* Add margin for spacing */
+  }
+  
+  .google-login-btn {
+    background-color: #4285F4; /* Google blue color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .google-login-btn:hover {
+    background-color: #357ae8; /* Darker blue on hover */
+  }
+  
+  @keyframes lds-grid {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+  .main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Centers content vertically */
+  height: 100%; /* Takes full height of the container */
+  /* Adds some padding around the content */}
