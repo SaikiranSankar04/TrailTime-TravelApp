@@ -7,7 +7,7 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDcocrzrpQnpmywAVgn5ih7hUXnHZWri0c",
+  apiKey: " ",
   authDomain: "trailtime-dc3e2.firebaseapp.com",
   projectId: "trailtime-dc3e2",
   storageBucket: "trailtime-dc3e2.firebasestorage.app",
